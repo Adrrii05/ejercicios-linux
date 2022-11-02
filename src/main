@@ -1,1 +1,121 @@
 
+Ejercicios comandos Linux 
+
+cd /bin ; ls -a
+
+
+
+cd /temp
+ls -a
+
+ 
+
+cd /etc
+ls -a -d -r t*
+
+
+
+ 
+cd /dev
+ls -a tt
+
+
+
+
+cd /dev
+
+ls tty*1
+ls tty*2
+ls tty*3
+ls tty*4
+
+
+
+
+
+ls t*c1
+
+
+
+ls -a
+
+
+ls -d /etc/[^t]*
+
+
+cd /usr | ls -R 
+
+
+cd /tmp ; mkdir prueba
+
+
+pwd
+
+date
+
+cd /home
+ 
+pwd
+
+cd /home | ls -i
+
+rm -rf prueba/*
+
+mkdir prueba/dir1
+mkdir prueba/dir2
+mkdir prueba/dir3
+mkdir prueba/dir1/dir11
+mkdir prueba/dir3/dir31
+mkdir prueba/dir3/dir31/dir311
+mkdir prueba/dir3/dir31/dir312
+
+
+sudo touch /etc/motd/mensaje
+
+
+
+cd prueba
+cd mensaje dir1/mensaje | cp mensaje dir2/mensaje | cp mensaje dir/mensaje
+
+
+
+ls -R PRUEBA
+
+cp -r /etc/rc.d dir31
+
+
+
+cp -r /bin/?a?? prueba/dir3/dir31/dir311
+
+cp -r ../usuario2 PRUEBA/dir1/dir11
+ 
+mv PRUEBA/dir3/dir31 PRUEBA/dir2
+
+
+
+ls -R $HOME
+ 
+mv PRUEBA/dir3/mensaje
+PRUEBA/dir3/.mensaje
+ 
+rm -rf PRUEBA/dir1
+
+cp /dev/t??[a*b]
+/home/ubuntu/PRUEBA/DIR3/DIR31/DIR312
+
+rm -r PRUEBA/dir2/dir31/dir312/???q[^b]
+ 
+mv PRUEBA/dir2/dir31/dir312/PRUEBA/dir3
+
+ln -s /home/ubuntu/PRUEBA/dir1prueba/dir3/enlacedir1
+
+cd dir3 mkdir enlacedir1/nuevo1
+
+cp -r /bin/u enlacedir1/nuevo1
+
+
+ln fich1 dir1/enlace in fich1 dir2/enlace
+
+rm fich1 dir1/enlace dir3/
+
+ln -s /home/ubuntu/prueba/dir2//home/ubuntu/PRUEB/di1/enlafich1
