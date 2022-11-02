@@ -116,26 +116,34 @@ subdirectorios.
 
 
 ls -R $HOME
+
 25. Ocultar el archivo mensaje del directorio dir3. 
 mv PRUEBA/dir3/mensaje
 PRUEBA/dir3/.mensaje
+
 26. Borrar los archivos y directorios de dir1, incluido el propio directorio. 
 rm -rf PRUEBA/dir1
+
 27. Copiar al directorio dir312 los ficheros del directorio /dev que empiecen por t, 
 acaben en una letra que vaya de la a a la by tengan cinco letras en su nombre. 
 cp /dev/t??[a*b]
 /home/ubuntu/PRUEBA/DIR3/DIR31/DIR312
+
 28. Borrar los archivos de dir312 que no acaben en b y tengan una q como cuarta 
 letra. 
 rm -r PRUEBA/dir2/dir31/dir312/???q[^b]
+
 29. Mover el directorio dir312 debajo de dir3. 
 mv PRUEBA/dir2/dir31/dir312/PRUEBA/dir3
+
 30. Crear un enlace simbólico al directorio dir1 dentro del directorio dir3 llamado 
 enlacedir1. 
 ln -s /home/ubuntu/PRUEBA/dir1prueba/dir3/enlacedir1
+
 31. Posicionarse en dir3 y, empleando el enlace creado en el ejercicio anterior, 
 crear el directorio nuevo1 dentro de dir1. 
 cd dir3 mkdir enlacedir1/nuevo1
+
 32. Utilizando el enlace creado copiar los archivos que empiecen por u del 
 directorio /bin en directorio nuevo1. 
 
@@ -144,8 +152,10 @@ cp -r /bin/u enlacedir1/nuevo1
 33. Crear dos enlaces duros del fichero fich1, llamarlo enlace, en los directorios 
 dir1 y dir2. 
 ln fich1 dir1/enlace in fich1 dir2/enlace
+
 34. Borrar el archivo fich1 y copiar enlace en dir3. 
 rm fich1 dir1/enlace dir3/
+
 35. Crear un enlace simbólico (llamado enlafich1) al fichero enlace de dir2 en 
 dir1. 
 ln -s /home/ubuntu/prueba/dir2//home/ubuntu/PRUEB/di1/enlafich1
